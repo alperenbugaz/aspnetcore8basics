@@ -28,3 +28,4 @@ E:\github\aspnetcore8basics\basics\obj\Debug\net8.0\refint\basics.dll
 E:\github\aspnetcore8basics\basics\obj\Debug\net8.0\basics.pdb
 E:\github\aspnetcore8basics\basics\obj\Debug\net8.0\basics.genruntimeconfig.cache
 E:\github\aspnetcore8basics\basics\obj\Debug\net8.0\ref\basics.dll
+E:\github\aspnetcore8basics\basics\obj\Debug\net8.0\basics.sourcelink.json

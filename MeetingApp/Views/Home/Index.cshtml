@@ -1,0 +1,22 @@
+@model MeetingInfo
+
+@{
+    Layout = "_Layout2";
+    ViewBag.Title = "Anasayfa";
+}
+<main class="text-center">
+
+
+<!--<h1 class="h4">@ViewBag.selamla , @ViewBag.UserName</h1>  ViewBag ile veri gönderme -->
+<h1 class="h4">@ViewData["selamla"] , @ViewData["UserName"]</h1> <!-- ViewData ile veri gönderme -->
+<h4>Toplantı Katılım Durumunuzu bildiriniz</h4>
+<div class="card my-2">
+     <ul class="list-group list-group-flush">
+        <li class="list-group-item">Toplantı Konumu: @Model.Location</li>
+        <li class="list-group-item">Toplantı Tarihi: @Model.Date</li>
+        <li class="list-group-item">Toplantı Katılımcı Sayısı: @ViewBag.UserCount</li>
+    </ul>
+
+</div>
+<a class="btn btn-sm btn-outline-primary" asp-controller="Meeting" asp-action="Apply">Başvuru Yap</a>
+</main>
