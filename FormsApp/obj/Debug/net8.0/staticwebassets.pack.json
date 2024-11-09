@@ -1,0 +1,365 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FormsApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FormsApp.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\img\\01d1864e-fb02-4a17-ad6f-6c348685e5a5.jpeg",
+      "PackagePath": "staticwebassets\\img\\01d1864e-fb02-4a17-ad6f-6c348685e5a5.jpeg"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\img\\03e3d44a-91b4-469b-aacb-f77f6197ed4a.jpeg",
+      "PackagePath": "staticwebassets\\img\\03e3d44a-91b4-469b-aacb-f77f6197ed4a.jpeg"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\img\\05febcc7-bdd1-4b53-b1b0-137fb6e186b5.jpeg",
+      "PackagePath": "staticwebassets\\img\\05febcc7-bdd1-4b53-b1b0-137fb6e186b5.jpeg"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\img\\0d3f79f6-8bb4-4f12-904c-6f922688b6d8.png",
+      "PackagePath": "staticwebassets\\img\\0d3f79f6-8bb4-4f12-904c-6f922688b6d8.png"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\img\\0e078557-0465-46d5-a05c-42a2c48260ac.jpeg",
+      "PackagePath": "staticwebassets\\img\\0e078557-0465-46d5-a05c-42a2c48260ac.jpeg"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\img\\13276106-9324-4b80-be4a-2bfabdf0c712.jpeg",
+      "PackagePath": "staticwebassets\\img\\13276106-9324-4b80-be4a-2bfabdf0c712.jpeg"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\img\\1767042e-f4be-441b-918d-c24a43d4657e.jpeg",
+      "PackagePath": "staticwebassets\\img\\1767042e-f4be-441b-918d-c24a43d4657e.jpeg"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\img\\1bfbe471-f7fe-4d7a-9dff-8b92f1a78de5.jpeg",
+      "PackagePath": "staticwebassets\\img\\1bfbe471-f7fe-4d7a-9dff-8b92f1a78de5.jpeg"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\img\\26156b41-0873-4bdb-a60c-6757bd8b8ca7.jpeg",
+      "PackagePath": "staticwebassets\\img\\26156b41-0873-4bdb-a60c-6757bd8b8ca7.jpeg"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\img\\26a65223-faf0-482f-9468-35adb6d4220a.jpeg",
+      "PackagePath": "staticwebassets\\img\\26a65223-faf0-482f-9468-35adb6d4220a.jpeg"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\img\\2ab5151b-f2cd-4fd9-a5e3-823330209610.jpeg",
+      "PackagePath": "staticwebassets\\img\\2ab5151b-f2cd-4fd9-a5e3-823330209610.jpeg"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\img\\2b08e0ef-e0f1-4453-9896-16754216765c.jpeg",
+      "PackagePath": "staticwebassets\\img\\2b08e0ef-e0f1-4453-9896-16754216765c.jpeg"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\img\\4c010e03-94b1-429f-a4b6-5b88bc48633a.jpeg",
+      "PackagePath": "staticwebassets\\img\\4c010e03-94b1-429f-a4b6-5b88bc48633a.jpeg"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\img\\53f7cd17-862c-413d-ab7b-bcd94ee385d2.jpeg",
+      "PackagePath": "staticwebassets\\img\\53f7cd17-862c-413d-ab7b-bcd94ee385d2.jpeg"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\img\\5da0acfe-e5ef-4ed4-8f8c-2233c94d301a.jpg",
+      "PackagePath": "staticwebassets\\img\\5da0acfe-e5ef-4ed4-8f8c-2233c94d301a.jpg"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\img\\68924a6d-f5a2-44d6-add6-44c91ebf03e6.jpeg",
+      "PackagePath": "staticwebassets\\img\\68924a6d-f5a2-44d6-add6-44c91ebf03e6.jpeg"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\img\\7c8ca6de-4ddc-4c87-afaa-5d1e400e9d1f.pdf",
+      "PackagePath": "staticwebassets\\img\\7c8ca6de-4ddc-4c87-afaa-5d1e400e9d1f.pdf"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\img\\7c924649-488a-4ec5-8b16-6828ed7a19fe.jpg",
+      "PackagePath": "staticwebassets\\img\\7c924649-488a-4ec5-8b16-6828ed7a19fe.jpg"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\img\\8064518b-6f96-4581-be0f-0d4cb23b5b93.jpeg",
+      "PackagePath": "staticwebassets\\img\\8064518b-6f96-4581-be0f-0d4cb23b5b93.jpeg"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\img\\90c4c35d-3feb-4e92-847f-03295794ac0b.jpeg",
+      "PackagePath": "staticwebassets\\img\\90c4c35d-3feb-4e92-847f-03295794ac0b.jpeg"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\img\\ad09d88e-6884-411f-9a55-3f2df66b3fba.jpeg",
+      "PackagePath": "staticwebassets\\img\\ad09d88e-6884-411f-9a55-3f2df66b3fba.jpeg"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\img\\b4de5a80-4668-4a36-bcfe-a187f1b4f07d.jpg",
+      "PackagePath": "staticwebassets\\img\\b4de5a80-4668-4a36-bcfe-a187f1b4f07d.jpg"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\img\\b5d7d9f4-f031-4be4-9bdb-3a4d2b0abad6.jpg",
+      "PackagePath": "staticwebassets\\img\\b5d7d9f4-f031-4be4-9bdb-3a4d2b0abad6.jpg"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\img\\c6dbdfc3-4f3d-4f1c-8113-a2a1d084a64c.jpeg",
+      "PackagePath": "staticwebassets\\img\\c6dbdfc3-4f3d-4f1c-8113-a2a1d084a64c.jpeg"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\img\\d48edc75-9a60-4b85-b2f1-a918d747a8b1.jpeg",
+      "PackagePath": "staticwebassets\\img\\d48edc75-9a60-4b85-b2f1-a918d747a8b1.jpeg"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\github\\aspnetcore8basics\\FormsApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FormsApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FormsApp.props",
+      "PackagePath": "build\\FormsApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FormsApp.props",
+      "PackagePath": "buildMultiTargeting\\FormsApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FormsApp.props",
+      "PackagePath": "buildTransitive\\FormsApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
