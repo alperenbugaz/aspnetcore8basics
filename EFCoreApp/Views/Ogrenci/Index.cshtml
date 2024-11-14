@@ -1,0 +1,51 @@
+@model IEnumerable<Ogrenci>
+
+<h2>Öğrenci Ekle</h2>
+<hr>
+<a href="/Ogrenci/Create" class="btn btn-primary">Yeni Öğrenci Ekle</a>
+<hr>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th style="width: 150px;">@Html.DisplayNameFor(m => m.OgrenciId)</th>
+            <th>@Html.DisplayNameFor(m => m.OgrenciAd)</th>
+            <th>@Html.DisplayNameFor(m => m.OgrenciSoyad)</th>
+            <th style="width: 150px;"> </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem =>item.OgrenciId)</td>
+                <td>@Html.DisplayFor(modelItem =>item.OgrenciAd)</td>
+                <td>@Html.DisplayFor(modelItem =>item.OgrenciSoyad)</td>
+                <td>
+                    <a asp-controller="Ogrenci" asp-action="Edit" asp-route-id="@item.OgrenciId" class="btn btn-sm btn-primary" type="submit">Edit</a>
+                    <button onclick="confirmDelete('@item.OgrenciId')" class="btn btn-sm btn-danger">Sil</button>              
+                </td>
+
+            </tr>
+        }
+</table>
+@section Scripts {
+    <script>
+        function confirmDelete(id) {
+            Swal.fire({
+                title: "Silmek istediğinizden emin misiniz?",
+                text: "Bu işlem geri alınamaz!",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#d33",
+                cancelButtonColor: "#3085d6",
+                confirmButtonText: "Evet, sil",
+                cancelButtonText: "İptal"
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    window.location.href = `/Ogrenci/Delete/${id}`;
+                }
+            });
+        }
+    </script>
+}

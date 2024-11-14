@@ -1,0 +1,36 @@
+@model Kurs
+
+@{
+    ViewData["Title"] = "Create";
+}
+<form asp-controller="Kurs" asp-action="Create" method="post"> 
+    <div class="mb-3">
+        <label asp-for="Baslik" class="form-label">Kurs Başlığı</label>
+        <input asp-for="Baslik" type="text" class="form-control">
+        <span asp-validation-for="Baslik"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="KursAciklama" class="form-label">Kurs Açıklaması</label>
+        <input asp-for="KursAciklama" type="text" class="form-control">
+        <span asp-validation-for="KursAciklama"></span>
+
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="KursUcret" class="form-label">Kurs Ücreti</label>
+        <input asp-for="KursUcret" type="number" step="0.01"  class="form-control">
+        <span asp-validation-for="KursUcret"></span>
+
+    </div>
+    <div class="mb-3">
+        <label asp-for="OgretmenId" class="form-label">Öğretmen</label>
+        <select asp-for="OgretmenId" asp-items="ViewBag.Ogretmenler"class="form-select"> 
+            <option value="">Seçiniz</option>
+        </select>
+        <span asp-validation-for="OgretmenId"></span>
+
+    </div>
+
+    <button type="submit" class="btn btn-secondary">Kaydet</button>
+</form>

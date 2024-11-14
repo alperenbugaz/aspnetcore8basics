@@ -1,0 +1,38 @@
+@model Ogretmen
+
+@{
+ViewData["Title"] = "Edit";
+}
+<div class="row">
+    <div class="col-8">
+        <form asp-controller="Ogretmen" asp-action="Edit" method="post">
+            <input type="hidden" asp-for="OgretmenId">
+
+            <div class="mb-3">
+                <label asp-for="Ad" class="form-label">Ad</label>
+                <input asp-for="Ad" type="text" class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Soyad" class="form-label">Soyad</label>
+                <input asp-for="Soyad" type="text" class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label">E-Mail</label>
+                <input asp-for="Email" type="text" class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Telefon" class="form-label">Telefon</label>
+                <input asp-for="Telefon" type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label asp-for="BaslamaTarihi" class="form-label">Başlama Tarihi</label>
+                <input asp-for="BaslamaTarihi" class="form-control">
+                
+            </div>
+            <button type="submit" class="btn btn-secondary">Kaydet</button>
+        </form>
+
+</div>

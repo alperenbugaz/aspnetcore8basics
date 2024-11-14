@@ -1,0 +1,57 @@
+@using EFCoreApp.Data 
+
+@model IEnumerable<Kurs>
+    
+    <h2 class="text-center">Kurslar</h2> 
+    <hr>
+    <a href="/Kurs/Create" class="btn btn-primary">Yeni Kurs Ekle</a>
+    <hr>
+    
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th style="width: 150px;">@Html.DisplayNameFor(m => m.KursId)</th>
+                <th>@Html.DisplayNameFor(m => m.Baslik)</th>
+                <th>@Html.DisplayNameFor(m => m.Baslik)</th>
+
+                <th>@Html.DisplayNameFor(m => m.Ogretmen.AdSoyad)</th>
+                <th style="width: 150px;"> </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem =>item.KursId)</td>
+                    <td>@Html.DisplayFor(modelItem =>item.Baslik)</td>
+                    <td>@Html.DisplayFor(modelItem =>item.KursUcret)</td>
+                    <td>@Html.DisplayFor(modelItem =>item.Ogretmen.AdSoyad)</td>
+
+                    <td>
+                        <a asp-controller="Kurs" asp-action="Edit" asp-route-id="@item.KursId" class="btn btn-sm btn-primary" type="submit">Edit</a>
+                        <button onclick="confirmDelete('@item.KursId')" class="btn btn-sm btn-danger">Sil</button>              
+                    </td>
+    
+                </tr>
+            }
+    </table>
+    @section Scripts {
+        <script>
+            function confirmDelete(id) {
+                Swal.fire({
+                    title: "Silmek istediğinizden emin misiniz?",
+                    text: "Bu işlem geri alınamaz!",
+                    icon: "warning",
+                    showCancelButton: true,
+                    confirmButtonColor: "#d33",
+                    cancelButtonColor: "#3085d6",
+                    confirmButtonText: "Evet, sil",
+                    cancelButtonText: "İptal"
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        window.location.href = `/Kurs/Delete/${id}`;
+                    }
+                });
+            }
+        </script>
+    }
