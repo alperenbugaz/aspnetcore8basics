@@ -1,0 +1,14 @@
+<h1>
+
+    @if (User.Identity.IsAuthenticated)
+    {
+        <text>Hey, @User.Identity.Name, you are not authorized to access this page.</text>
+        <text> 
+            
+        </text>
+    }
+    else
+    {
+        <text>You are not authorized to access this page.</text>
+    }
+</h1>

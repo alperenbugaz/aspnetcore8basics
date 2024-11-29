@@ -1,0 +1,50 @@
+@model IEnumerable<AppUser>
+
+    <a class="btn btn-primary" asp-controller="Account" asp-action="Create">Create User</a>
+    <hr>
+    <table class="table table-sm table-bordered">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>PhoneNumber</th>
+            </tr>
+        </thead>
+    
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.Id</td>
+                    <td>@user.FullName</td>
+                    <td>@user.Email</td>
+                    <td>@user.PhoneNumber</td>
+                    <td>
+                        <a class="btn btn-primary btn-sm" asp-controller="Users" asp-action="Edit" asp-route-id="@user.Id">Edit</a> |
+                        <button class="btn btn-danger btn-sm" onclick="confirmDelete('@user.Id')">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    
+    @section Scripts {
+        <script>
+            function confirmDelete(userId) {
+                Swal.fire({
+                    title: 'Are you sure?',
+                    text: "You won't be able to revert this!",
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'Yes, delete it!'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        window.location.href = '/Users/Delete/' + userId;
+                    }
+                })
+            }
+        </script>
+    }
