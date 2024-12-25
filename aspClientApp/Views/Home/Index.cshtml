@@ -1,0 +1,10 @@
+﻿@model List<ProductDTO>
+
+@foreach (var product in Model)
+{
+    <div>
+        <h2>@product.ProductId</h2>
+        <p>@product.ProductName</p>
+        <p>@product.Price</p>
+    </div>
+}
