@@ -1,0 +1,34 @@
+@page "{id}"
+@model EditModel
+
+<h1>Edit</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="Employee.EmployeeId" />
+    <div class="form-group">
+        <label asp-for="Employee.EmployeeName" class="control-label"></label>
+        <input asp-for="Employee.EmployeeName" class="form-control" />
+        <span asp-validation-for="Employee.EmployeeName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Employee.Email" class="control-label"></label>
+        <input asp-for="Employee.Email" class="form-control" />
+        <span asp-validation-for="Employee.Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Employee.Department" class="control-label"></label>
+        <input asp-for="Employee.Department" class="form-control" />
+        <span asp-validation-for="Employee.Department" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Employee.Photo" class="control-label"></label>
+        <input asp-for="Employee.Photo" class="form-control" />
+        <span asp-validation-for="Employee.Photo" class="text-danger"></span>
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a href ="/Employees/Index" class="btn btn-primary">Cancel</a>
+</form>
+
