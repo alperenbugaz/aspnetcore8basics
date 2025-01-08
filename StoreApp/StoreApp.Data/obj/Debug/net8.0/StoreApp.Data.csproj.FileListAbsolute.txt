@@ -1,0 +1,15 @@
+E:\github\aspnetcore8basics\StoreApp\StoreApp.Data\bin\Debug\net8.0\StoreApp.Data.deps.json
+E:\github\aspnetcore8basics\StoreApp\StoreApp.Data\bin\Debug\net8.0\StoreApp.Data.runtimeconfig.json
+E:\github\aspnetcore8basics\StoreApp\StoreApp.Data\bin\Debug\net8.0\StoreApp.Data.dll
+E:\github\aspnetcore8basics\StoreApp\StoreApp.Data\bin\Debug\net8.0\StoreApp.Data.pdb
+E:\github\aspnetcore8basics\StoreApp\StoreApp.Data\obj\Debug\net8.0\StoreApp.Data.csproj.AssemblyReference.cache
+E:\github\aspnetcore8basics\StoreApp\StoreApp.Data\obj\Debug\net8.0\StoreApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\github\aspnetcore8basics\StoreApp\StoreApp.Data\obj\Debug\net8.0\StoreApp.Data.AssemblyInfoInputs.cache
+E:\github\aspnetcore8basics\StoreApp\StoreApp.Data\obj\Debug\net8.0\StoreApp.Data.AssemblyInfo.cs
+E:\github\aspnetcore8basics\StoreApp\StoreApp.Data\obj\Debug\net8.0\StoreApp.Data.csproj.CoreCompileInputs.cache
+E:\github\aspnetcore8basics\StoreApp\StoreApp.Data\obj\Debug\net8.0\StoreApp.Data.sourcelink.json
+E:\github\aspnetcore8basics\StoreApp\StoreApp.Data\obj\Debug\net8.0\StoreApp.Data.dll
+E:\github\aspnetcore8basics\StoreApp\StoreApp.Data\obj\Debug\net8.0\refint\StoreApp.Data.dll
+E:\github\aspnetcore8basics\StoreApp\StoreApp.Data\obj\Debug\net8.0\StoreApp.Data.pdb
+E:\github\aspnetcore8basics\StoreApp\StoreApp.Data\obj\Debug\net8.0\StoreApp.Data.genruntimeconfig.cache
+E:\github\aspnetcore8basics\StoreApp\StoreApp.Data\obj\Debug\net8.0\ref\StoreApp.Data.dll

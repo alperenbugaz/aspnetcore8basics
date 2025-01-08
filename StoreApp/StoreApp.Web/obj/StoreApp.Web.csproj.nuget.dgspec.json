@@ -4,14 +4,14 @@
     "E:\\github\\aspnetcore8basics\\StoreApp\\StoreApp.Web\\StoreApp.Web.csproj": {}
   },
   "projects": {
-    "E:\\github\\aspnetcore8basics\\StoreApp\\StoreApp.Web\\StoreApp.Web.csproj": {
+    "E:\\github\\aspnetcore8basics\\StoreApp\\StoreApp.Data\\StoreApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\github\\aspnetcore8basics\\StoreApp\\StoreApp.Web\\StoreApp.Web.csproj",
-        "projectName": "StoreApp.Web",
-        "projectPath": "E:\\github\\aspnetcore8basics\\StoreApp\\StoreApp.Web\\StoreApp.Web.csproj",
+        "projectUniqueName": "E:\\github\\aspnetcore8basics\\StoreApp\\StoreApp.Data\\StoreApp.Data.csproj",
+        "projectName": "StoreApp.Data",
+        "projectPath": "E:\\github\\aspnetcore8basics\\StoreApp\\StoreApp.Data\\StoreApp.Data.csproj",
         "packagesPath": "C:\\Users\\Alperen Buğaz\\.nuget\\packages\\",
-        "outputPath": "E:\\github\\aspnetcore8basics\\StoreApp\\StoreApp.Web\\obj\\",
+        "outputPath": "E:\\github\\aspnetcore8basics\\StoreApp\\StoreApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alperen Buğaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,102 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\github\\aspnetcore8basics\\StoreApp\\StoreApp.Web\\StoreApp.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\github\\aspnetcore8basics\\StoreApp\\StoreApp.Web\\StoreApp.Web.csproj",
+        "projectName": "StoreApp.Web",
+        "projectPath": "E:\\github\\aspnetcore8basics\\StoreApp\\StoreApp.Web\\StoreApp.Web.csproj",
+        "packagesPath": "C:\\Users\\Alperen Buğaz\\.nuget\\packages\\",
+        "outputPath": "E:\\github\\aspnetcore8basics\\StoreApp\\StoreApp.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alperen Buğaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\github\\aspnetcore8basics\\StoreApp\\StoreApp.Data\\StoreApp.Data.csproj": {
+                "projectPath": "E:\\github\\aspnetcore8basics\\StoreApp\\StoreApp.Data\\StoreApp.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
