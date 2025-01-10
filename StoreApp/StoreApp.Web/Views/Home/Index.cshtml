@@ -1,41 +1,44 @@
 @model ProductListViewModel
 
-@{
-ViewBag.Title = "Home Page";
-}
 <div class="row">
     <div class="col-md-3">
-        <vc:categories-list> </vc:categories-list>
+        <vc:categories-list />
     </div>
     <div class="col-md-9">
-        <h5>Index Page</h5>
-
-        @if (Model.Products.Count() == 0)
+        @if(Model.Products.Count() == 0)
         {
-        <p>No products found</p>
+            <p>Ürün bulunamadı.</p>
         }
-        else
-        {
+
         @foreach(var p in Model.Products)
         {
-        <div class="card card-outline-secondary mb-2 p-2">
-            <div class="d-flex justify-content-between">
-                <div>
-                    <h4>@p.Name</h4>
-                    <p>@p.Description</p>
-
+            <div class="card card-outline-secondary mb-2 p-2">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h4>@p.Name</h4>
+                        <p>@p.Description</p>
+                        <h1>@p.ProductId</h1>
+                    </div>
+                    <div>
+                        <span class="badge rounded-pill text-bg-success">@Math.Truncate(p.Price) TL</span>
+                    </div>
                 </div>
-                <div>
-                    <span class="badge rounded-pill text-bg-success">@p.Price TL</span>
-                </div>
+                <form asp-page="/Cart" method="post">
+                    <input type="hidden" asp-for="@p.ProductId" name="ProductId">
+                    <button type="submit" class="btn btn-outline-success btn-sm pull-right" style="float:right;">Sepete Ekle</button>
+                </form>
             </div>
-        </div>
-        }
         }
 
-
-        <div page-model="@Model.PageInfo" page-action="Index" page-class="btn" page-class-link="btn-outline-secondary"
-            page-class-active="btn-secondary" class="btn-group m-1">
-        </div>
+        @if(Model.PageInfo.TotalPages > 1)
+        {
+            <div 
+                page-model="@Model.PageInfo" 
+                page-action="Index"
+                page-class="btn"
+                page-class-link="btn-outline-dark"
+                page-class-active="btn-dark"
+                class="btn-group my-2"></div>
+        }
     </div>
 </div>

@@ -1,7 +1,8 @@
 using Microsoft.EntityFrameworkCore;
+using StoreApp.Data.Abstract;
 using StoreApp.Data.Concrete;
 
-namespace StoreApp.Data.Abstract
+namespace StoreApp.Data.Concrete
 {
     public class EFStoreRepository : IStoreRepository
     {
@@ -36,26 +37,18 @@ namespace StoreApp.Data.Abstract
             _context.SaveChanges();
         }
 
-        public Product DeleteProduct(int productId)
+
+    public IEnumerable<Product> GetProductsByCategory(string category, int page, int pageSize)
+    {
+        var products = Products; 
+
+        if(!string.IsNullOrEmpty(category))
         {
-            throw new System.NotImplementedException();
-        }
+            products = products.Include(p => p.Categories).Where(p => p.Categories.Any(a => a.CategoryUrl == category));
+        }   
 
-        public IEnumerable<Product> GetProductsByCategory(string category, int page, int pageSize)
-        {
-            var products = Products;
-            if (!string.IsNullOrEmpty(category))
-            {
-                products = products.Include(p => p.Categories).Where(p => p.Categories.Any(c => c.CategoryName == category));
-            }
-
-
-
-
-            return products.Skip((page - 1) * pageSize).Take(pageSize);
-
-
-        }
+        return products.Skip((page - 1) * pageSize).Take(pageSize);
+    }
 
         public int GetProductsCount(string category)
         {

@@ -1,0 +1,14 @@
+@model Cart
+
+
+<a class="btn btn-sm btn-warning" href="/cart">Sepetim</a>
+@if (Model?.Items.Count()>0)
+{
+<small class="text-white">
+    @Model?.Items.Sum(i=>i.Quantity) adet ürün
+    [@Math.Truncate(Model.CalculateTotal()) TL]
+
+</small>
+
+
+}

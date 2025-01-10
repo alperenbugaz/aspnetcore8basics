@@ -7,7 +7,6 @@ namespace StoreApp.Data.Abstract
         IQueryable<Product> Products { get; }
         IQueryable<Category> Categories { get; }
         void CreateProduct(Product product);
-        Product DeleteProduct(int productId);
 
         IEnumerable<Product> GetProductsByCategory(string category,int page,int pageSize);
 
